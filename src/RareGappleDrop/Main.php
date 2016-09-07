@@ -1,6 +1,6 @@
 <?php
 
-namespace RareGappleKill;
+namespace RareGapplDrop;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerDeathEvent;
