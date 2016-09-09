@@ -2,6 +2,6 @@ name: RareGappleDrop
 api:
   - 2.0.0
 version: "0.1"
-main: \RareGapplDrop\Main
+main: \RareGappleDrop\Main
 authors:
   - NidGaming
