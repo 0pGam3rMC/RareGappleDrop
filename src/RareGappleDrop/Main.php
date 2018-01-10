@@ -15,7 +15,7 @@ class Main extends PluginBase implements Listener
   public function onEnable()
   {
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
-    $this->getLogger()->info(TF::GREEN . "RareGappleDrop v0.1 has been Enabled!");
+    $this->getLogger()->info(TF::DARK_PURPLE . "GappleDrop v1.2.7 has been Enabled!");
   }
 
   public function onDeath(PlayerDeathEvent $event)
@@ -28,7 +28,7 @@ class Main extends PluginBase implements Listener
         $rand = mt_rand(1, 4);
         if($rand === 1) {
           $killer->getInventory()->addItem(Item::get(Item::GOLDEN_APPLE));
-          $killer->sendMessage(TF::GREEN . "[RareGappleDrop] You have received a rare golden apple for killing " . $entity->getDisplayName() . " ! ");
+          $killer->sendMessage(TF::DARK_PURPLE . "[GappleDrop] You have received a rare golden apple for killing " . $entity->getDisplayName() . " ! ");
         }
       }
     }
